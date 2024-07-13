@@ -20,6 +20,12 @@ document.querySelector("#user-icon").onclick = () => {
   cart.classList.remove("active");
 };
 
+document.querySelector("#user-icon").onclick = () => {
+  user.classList.toggle("active");
+  search.classList.remove("active");
+  cart.classList.remove("active");
+};
+
 // Navbar Scrool
 let header = document.querySelector('header');
 
